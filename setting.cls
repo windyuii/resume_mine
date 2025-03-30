@@ -69,8 +69,8 @@ BoldFont=Pro_GB18030DemiBold.ttf,
 	a4paper,
 	left=0.65cm,
 	right=0.65cm,
-	top=0.8cm,
-	bottom=0.5cm,
+	top=0.7cm,
+	bottom=0.7cm,
 	nohead
 ]{geometry}
 \renewcommand{\baselinestretch}{1.15} %定义行间距1.15
