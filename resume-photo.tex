@@ -1,0 +1,21 @@
+\documentclass{setting}
+\RequirePackage{calc}
+\begin{document}
+\pagenumbering{gobble} % suppress displaying page number
+
+%%%% 利用tikz来定位照片
+\begin{tikzpicture}[remember picture, overlay]
+  \node[anchor = north east] at ($(current page.north east)+(-0.6cm,-0.5cm)$) {\includegraphics[height=3.5cm]{WechatIMG6.jpg}};
+\end{tikzpicture}%
+
+\name{廖峻晨}
+
+电话: 13422390215 ｜邮箱: 13422390215@163.com ｜现居城市: 广州
+
+年龄: 23岁 ｜性别: 男
+
+求职意向: 大模型算法及其应用开发
+
+\input{body}
+
+\end{document}
